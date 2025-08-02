@@ -2636,6 +2636,10 @@ PODS:
     - SocketRocket
     - Yoga
   - SocketRocket (0.7.1)
+  - ViroKit (1.0):
+    - React
+  - ViroReact (1.0):
+    - React
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -2722,6 +2726,8 @@ DEPENDENCIES:
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - RNWorklets (from `../node_modules/react-native-worklets`)
   - SocketRocket (~> 0.7.1)
+  - "ViroKit (from `../node_modules/@reactvision/react-viro/ios/dist/ViroRenderer/`)"
+  - "ViroReact (from `../node_modules/@reactvision/react-viro/ios/`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -2894,6 +2900,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-vector-icons"
   RNWorklets:
     :path: "../node_modules/react-native-worklets"
+  ViroKit:
+    :path: "../node_modules/@reactvision/react-viro/ios/dist/ViroRenderer/"
+  ViroReact:
+    :path: "../node_modules/@reactvision/react-viro/ios/"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -2982,8 +2992,10 @@ SPEC CHECKSUMS:
   RNVectorIcons: 54df27a2e90ddeb674c7237d76060ec9762d0bc5
   RNWorklets: 7d34d4c80edec50bb1eec6bd034e7686db26da8e
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
+  ViroKit: 700d3d4ca086368d06224de1cbbc19781aea2094
+  ViroReact: f4980e6b04918c4340637f9cbaae22a6bb7ea440
   Yoga: 1c52fbd270869e556504def7e94fffbf67f53f7b
 
-PODFILE CHECKSUM: bd5478362e578e4466f0ce7d9a4b9cb0eefd43c5
+PODFILE CHECKSUM: f6057c34c45f9bae3ed793afc1eb0bfadb95bba6
 
 COCOAPODS: 1.15.2

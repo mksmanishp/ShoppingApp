@@ -61,7 +61,7 @@ react {
 /**
  * Set this to true to Run Proguard on Release builds to minify the Java bytecode.
  */
-def enableProguardInReleaseBuilds = false
+def enableProguardInReleaseBuilds = true
 
 /**
  * The preferred build flavor of JavaScriptCore (JSC)
@@ -114,6 +114,15 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+    implementation project(':gvr_common')
+  implementation project(':arcore_client')
+  implementation project(path: ':react_viro')
+  implementation project(path: ':viro_renderer')
+  implementation 'androidx.media3:media3-exoplayer:1.1.1'
+  implementation 'androidx.media3:media3-exoplayer-dash:1.1.1'
+  implementation 'androidx.media3:media3-exoplayer-hls:1.1.1'
+  implementation 'androidx.media3:media3-exoplayer-smoothstreaming:1.1.1'
+  implementation 'com.google.protobuf.nano:protobuf-javanano:3.1.0'
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")

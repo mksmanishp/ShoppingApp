@@ -2168,6 +2168,13 @@
   dependencies:
     undici-types "~7.8.0"
 
+"@types/react-native-razorpay@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.npmjs.org/@types/react-native-razorpay/-/react-native-razorpay-2.2.6.tgz"
+  integrity sha512-8CqZvL53bqs51aLaNXssEaBFN5a09WB5nWEOa1RtNXTnuh9zDyMZ9yKqjN+buVFFOAH4mE9IpB7J1V1I3REnMQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-native-vector-icons@^6.4.18":
   version "6.4.18"
   resolved "https://registry.npmjs.org/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.18.tgz"
