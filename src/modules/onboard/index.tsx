@@ -8,7 +8,7 @@ import { resetAndNavigate } from '@utils/NavigationUtil';
 const Splash = () => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      resetAndNavigate('Home');
+      resetAndNavigate('MainNavigator');
     }, 3000);
     return () => clearTimeout(timeoutId);
   }, []);
